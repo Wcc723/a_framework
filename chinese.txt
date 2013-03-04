@@ -1,0 +1,97 @@
+﻿中文
+.all_forLanguageDemoTitle│朱子治家格言
+.all_forLanguageDemoArticle│黎明即起，灑掃庭除，要內外整潔。既昏便息，關鎖門戶，必親自檢點。一粥一飯，當思來處不易．半絲半縷，恆念物力維艱。宜未雨而綢繆，毋臨渴而掘井。自奉必須儉約，宴客切勿留連。器具質而潔，瓦缶勝金玉。飲食約而精，園蔬勝珍饈。勿營華屋，勿謀良田。三姑六婆，實淫盜之媒．婢美妾嬌，非閨房之福。奴僕勿用俊美，妻妾切忌艷妝。祖宗雖遠，祭祀不可不誠．子孫雖愚，經書不可不讀。居身務期質樸，教子要有義方。勿貪意外之財，勿飲過量之酒。與肩挑貿易，勿佔便宜．見貧苦親鄰，須多溫恤。刻薄成家，理無久享．倫常乖舛，立見消亡。兄弟叔侄，須多分潤寡．長幼內外，宜法屬辭嚴。聽婦言，乖骨肉，豈是丈夫．重資財，薄父母，不成人子。嫁女擇佳婿，毋索重聘．娶媳求淑女，毋計厚奩。見富貴而生讒容者，最可恥．遇貧窮而作驕態者，賤莫甚。居家戒爭訟，訟則終凶。處世戒多言，言多必失。毋恃勢力而凌逼孤寡，勿貪口腹而恣殺生禽。乖僻自是，悔誤必多．頹惰自甘，家道難成。狎昵惡少，久必受其累．屈誌老成，急則可相依。輕聽發言，安知非人之譖訴，當忍耐三思．因事相爭，安知非我之不是，須平心遭暗想。施惠勿念，受恩莫忘。凡事當留余地，得意不宜再往。人有喜慶，不可生妒忌心。人有禍患，不可生喜幸心。善欲人見，不是真善．惡恐人知，便是大惡。見色而起淫心，報在妻女．匿怨而用暗箭，禍延子孫。家門和順，雖饔飧不繼，亦有余歡．國課早完，即囊橐無余，自得至樂。讀書誌在聖賢，為官心存君國。守分安命，順時聽天。為人若此，庶乎近焉。 
+.all_forLanguageDemoShort│黎明即起，灑掃庭除
+.all_forLanguageDemoText│文字
+.all_forLanguageDownload│立即下載
+.all_forLanguageSupport│技術支援
+.all_forLanguagePath│設成本機路徑
+.all_forLanguagePluginText│範例
+.all_forLanguagePluginText2│如何使用
+.all_forLanguagePluginText2_2│請將以下原始碼加在 &lt;head&gt;&lt;/head&gt;之間
+.all_forLanguagePluginText2_3│請將以下原始碼加在&lt;body&gt;&lt;/body&gt;之間
+.all_forLanguagePluginText4│設定您要的功能
+.all_forLanguagePluginText4_2│符合無障礙網站設計
+.all_forLanguagePluginText4_3│搭載範例樣式CSS
+.all_forLanguagePluginText4_4│搭載jQuery框架
+.all_forLanguagePluginText5│以上連結路徑為網路版本，如已下載檔案，請按左方來恢復成原始路徑。
+.all_forLanguageMenu│命名規則
+.all_forLanguageMenu_2│CSS風格
+.all_forLanguageMenu_3│jQuery套件
+.all_forLanguageMenu_4│基本版型
+.aFontResize_forLanguageText│一個 字型大小
+.aFontResize_forLanguageText2│變換網頁字體大小。
+.aBanner_forLanguageText│一個 動畫輪播
+.aBanner_forLanguageText2│圖片展示效果
+.aMarquee_forLanguageText│一個 跑馬燈
+.aMarquee_forLanguageText2│圖片跑馬燈效果
+.aLightbox_forLanguageText│一個 燈箱
+.aLightbox_forLanguageText2│燈箱效果
+.aShare_forLanguageText│一個 分享
+.aShare_forLanguageText2│新增一個社群分享連結按鈕
+.aChange_forLanguageText│一個 變換
+.aChange_forLanguageText2│圖片滑鼠事件會變換效果
+.aView_forLanguageText│一個 檢視
+.aView_forLanguageText2│頁籤檢視效果
+.index_forLanguageText│一個框架
+.index_forLanguageText2│快到你凍未條的亞洲版前端網站開發器。
+.index_forLanguageText3│打包整個框架。
+.all_forVersionText│版本
+.aRule_forLanguageText│一個規則
+.aStyle_forLanguageText│一個風格
+.aStyle_forLanguageText2│標籤和類別的基本樣式
+.aStyle_forLanguageText4│標籤速查表
+.aStyle_forLanguageText5│類別速查表
+.aStyle_forLanguageText6│標籤範例
+.aStyle_forLanguageText7│標題
+.aStyle_forLanguageText8│文字
+.aStyle_forLanguageText9│表單
+.aStyle_forLanguageText10│類別範例
+.aStyle_forLanguageText11│按鈕
+.aStyle_forLanguageText12│使用於 <code>&lt;inputd type="button"&gt;</code> 或 <code>&lt;a&gt;</code> 的物件
+.aStyle_forLanguageText13│標籤
+.aStyle_forLanguageText14│使用於 <code>&lt;span&gt;</code> 的物件
+.aStyle_forLanguageText15│文字
+.aStyle_forLanguageText16│使用於 <code>&lt;p&gt;</code> 的物件
+.aStyle_forLanguageText17│區塊
+.aStyle_forLanguageText18│適用於標籤為 <code>&lt;blockquote&gt;</code> 的物件
+.aStyle_forLanguageText19│背景
+.aStyle_forLanguageText20│適用於標籤為 <code>&lt;div&gt;</code> 或 <code>&lt;table&gt;</code> 的物件
+.aStyle_forLanguageText21│標題
+.aStyle_forLanguageText22│適用於標籤為 <code>&lt;h1&gt;</code> 到 <code>&lt;h6&gt;</code> 的物件
+.aStyle_forLanguageText23│表格
+.aStyle_forLanguageText24│水平線
+.aStyle_forLanguageText25│圖案
+.aStyle_forLanguageText26│描述
+.aStyle_forLanguageText27│無順序列表
+.aStyle_forLanguageText28│有順序列表
+.aStyle_forLanguageText29│尺寸
+.aStyle_forLanguageText30│格子
+.aStyle_forLanguageText31│兩欄式格子範例
+.aStyle_forLanguageText32│三欄式格子範例
+.aStyle_forLanguageText33│內容格子範例
+.aStyle_forLanguageText34│相本
+.aStyle_forLanguageText35│圖文
+.aStyle_forLanguageText36│區塊
+.aStyle_forLanguageText37│技術支援
+.aStyle_forLanguageText38│群組
+.aStyle_forLanguageText39│適用於標籤為 <code>&lt;dl&gt;</code> 的物件
+.aStyle_forLanguageText40│適用於標籤為 <code>&lt;ul&gt;</code> 的物件
+.aStyle_forLanguageText41│適用於標籤為 <code>&lt;ol&gt;</code> 的物件
+.aStyle_forLanguageText42│基本格子範例
+.aStyle_forLanguageMain│清除格式
+.aStyle_forLanguageMain_2│清除所有HTML的預設值。
+.aStyle_forLanguageMain2│格子
+.aStyle_forLanguageMain2_2│簡單網格系統輔助您網站設計。
+.aStyle_forLanguageMain3│基本
+.aStyle_forLanguageMain3_2│基本的HTML元素的風格和美化的類別。
+.aStyle_forLanguageMain4│自適應
+.aStyle_forLanguageMain4_2│支援自適應網頁設計。
+.aStyle_forLanguageMain5│相容性
+.aStyle_forLangu5_2│支援IE7/IE8/IE9/IE10、火狐和Chrome瀏覽器相容性。
+.aTemplate_forLanguageText│一個版型
+.aTemplate_forLanguageText2│一個技術創造網站的風格
+.aTemplate_forLanguageMain│表單
+.aTemplate_forLanguageMain2│表格
+.aTemplate_forLanguageMain3│分頁
+.aTemplate_forLanguageMain4│表單和表格
