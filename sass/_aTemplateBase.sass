@@ -1,0 +1,123 @@
+@import setup.sass
+@mixin aTemplateBase($table,$color)
+    $color_complement: adjust_hue($color, 180)
+    $color_saturation: scale-saturation($color, -50)
+    $color_light: lighten(scale-saturation($color, -30),20%)
+    $color_lighter: lighten($color_light,20%)
+    $color_triad1: adjust_hue(scale-saturation($color, -30), 30)
+    $color_triad2: adjust_hue(scale-saturation($color, -30), -60)
+    $radius: 5px
+    // all
+    .#{$table}, .aTemplate
+        margin-bottom: 10px
+        font-size: 100%
+        color: $color_saturation
+        font-family: $fontFamily
+        em
+            font-weight: normal
+            font-style: normal
+            color: $color_complement
+        cite
+            font-weight: normal
+            font-style: normal
+            color: $color_light
+        a
+            color: $color
+            &:link
+                color: $color
+            &:visited
+                color: $color
+            &:hover
+                color: $color_triad1
+            &:active
+                color: $color_triad1
+    // page
+    div.#{$table}, div.aTemplate
+        display: inline
+        margin: 2px
+        color: $color_light
+        a
+            display: inline-block
+            text-decoration: none
+            line-height: 1.2
+            border: 1px $color_light solid
+            padding: 1px 6px 1px 6px
+            +border-radius($radius, $radius)
+            @include single-transition(all, 0.5s, ease, 0)
+            &:visited
+                color: $color_light
+            &:hover, &:focus
+                color: #ffffff
+                background-color: $color
+                +single-box-shadow($color_light)
+            &:active
+        span 
+            color: $color
+            font-weight: bold
+            text-decoration: none
+            padding: 5px 10px 5px 10px
+            display: inline-block
+    // table
+    table.#{$table}, table.aTemplate
+        border-collapse: collapse
+        word-break: break-all
+        width: 100%
+        margin: 0 auto
+        border 0
+        td
+            border: 1px $color_lighter solid
+        tr:nth-child(odd)
+            background: #fcfcfc
+        tr
+            background: #ffffff
+            @include single-transition(all, 0.5s, ease, 0)
+            &:hover
+                background: #fafafa
+        td, th
+            // all td
+            padding: 10px
+            border-bottom: 1px $color_lighter solid
+        thead td, thead th
+            // table top head
+            font-size: 120%
+            border: 0
+            @include background-image(linear-gradient(bottom, $color 1%, $color_light 20%, $color 60%))
+            background-color: $color
+            color: #ffffff
+            overflow: hidden
+            text-align: center
+            @include single-text-shadow(#666666, 0px, 0px, 2px)
+        th
+            // table side head
+            font-size: 120%
+            border: 1px $color_lighter solid
+            background-color: $color_lighter
+            color: $color_saturation
+            overflow: hidden
+            text-align: center
+    // form
+    fieldset.#{$table}, fieldset.aTemplate
+        border: 0
+        margin-left: auto
+        margin-right: auto
+        legend
+            color: $color_triad2
+            font-weight: bold
+        label
+        table.#{$table}, table.aTemplate
+            text-align: left
+            input, textarea, select
+                margin: 0px
+        input, textarea, select
+            +border-radius($radius, $radius)
+            vertical-align: middle
+            margin-right: 10px
+            border: 1px $color_lighter solid
+            color: $color_saturation
+            padding: 5px
+            &:hover, &:focus
+                background: #ffffff
+        input[type=submit], input[type=button], button
+            +single-box-shadow($color_light)
+            @include button($color,#ffffff)
+            @include single-text-shadow(#666666, 0px, 0px, 2px)

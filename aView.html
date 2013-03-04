@@ -1,0 +1,154 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>a Framework Technical Document- jQuery Plugin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/import.css" rel="stylesheet" />
+<link href="css/aView.css" rel="stylesheet" />
+</head>
+<body onload='prettyPrint();'>
+<div class="all_wrapMenu full isGrayRay">It appears that your browser has JavaScript disabled. This block requires your browser to be JavaScript enable</div>
+<div class="container">
+  <div class="row isSuccessRay">
+    <div class="column12 textCenter">
+      <div class="padding">
+        <div class="group hiddenPhone textRight"><a href="javascript:void(0)" id="chinese" title="中文" class="btn small">中</a><a href="?" title="English" class="btn small">EN</a></div>
+        <h1 class="all_forLanguageMenu_3">jQuery Plugin</h1>
+        <em class="aView_forLanguageText">a View</em> <span class="all_forVersionText">Version</span> <span class="forVersionInput isMuted">0.2</span>
+        <p class="isMuted aView_forLanguageText2">Tab view effects.</p>
+        <a href="http://wcc-demo.googlecode.com/files/zip/aView.zip" class="large isSuccess all_forLanguageDownload">Download</a></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column12">
+      <h2 class="all_forLanguagePluginText">Expamle</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column12">
+      <div class="aView">
+        <ul class="header noscript">
+          <li><a href="#">news</a></li>
+          <li><a href="#">sport</a></li>
+          <li><a href="#">funny</a></li>
+        </ul>
+        <ul class="content">
+          <li>news text</li>
+          <li>sport text</li>
+          <li>funny text</li>
+        </ul>
+      </div>
+      <noscript>
+      <style> 
+.noscript {display: none}
+</style>
+      </noscript>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column12">
+      <h2 class="all_forLanguagePluginText2">How to use</h2>
+    </div>
+  </div>
+  <div class="row isSuccessRay">
+    <div class="column3"><em class="isInfo">1</em> <em class="all_forLanguagePluginText2_2">Copy code from the <code>&lt;head&gt;</code> and <code>&lt;/head&gt;</code> tags and paste it on your page.</em>
+      <hr class="solid" />
+      <h6 class="isDanger all_forLanguagePluginText4">Configure Your Script</h6>
+      <div class="padding">
+        <ul>
+          <li><em class="all_forLanguagePluginText4_3">With Template CSS</em>
+            <input type="checkbox" class="forTempleteCheckbox"/>
+          </li>
+          <li><em class="all_forLanguagePluginText4_4">With jQuery Library</em>
+            <input type="checkbox" class="forJqueryCheckbox"/>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="column9 isGrayRay">
+      <pre class="prettyprint forStepHTML">
+&lt;script src="http://wcc-demo.googlecode.com/files/js/aView-<span class="forVersionOutput">0</span>.js"&gt;&lt;/script&gt;<br />&lt;script&gt;<br />&lt;!--<br />	//a View<br /> $(document).ready(function () {<br /> $('.aView').aView(); <br /> });<br /> //--&gt;<br />&lt;/script&gt;
+        </pre>
+    </div>
+  </div>
+  <div class="row isSuccessRay">
+    <div class="column3"><em class="isInfo">2</em> <em class="all_forLanguagePluginText2_3">Copy code from the <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code> tags and paste it on your page.</em>
+      <hr class="solid" />
+      <h6 class="isDanger all_forLanguagePluginText4">Configure Your Script</h6>
+      <div class="padding"> <em class="all_forLanguagePluginText4_2">With AWDG</em>
+        <input type="checkbox" class="forAWDGCheckbox"/>
+      </div>
+    </div>
+    <div class="column9 isGrayRay">
+      <pre class="prettyprint forStep2HTML">&lt;div class="aView"&gt;<br /> &lt;ul class="header noscript"&gt;<br /> &lt;li&gt;&lt;a href="#"&gt;news&lt;/a&gt;&lt;/li&gt;<br /> &lt;li&gt;&lt;a href="#"&gt;sport&lt;/a&gt;&lt;/li&gt;<br /> &lt;li&gt;&lt;a href="#"&gt;funny&lt;/a&gt;&lt;/li&gt;<br /> &lt;/ul&gt;<br /> &lt;ul class="content"&gt;<br /> &lt;li&gt;news text&lt;/li&gt;<br /> &lt;li&gt;sport text&lt;/li&gt;<br /> &lt;li&gt;funny text&lt;/li&gt;<br /> &lt;/ul&gt;<br /> &lt;/div&gt;
+</pre>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column12 textRight">
+      <blockquote class="isWarning"><em class="all_forLanguagePluginText5">This version is online path, if you want to use local path, please click this button.</em> <a href="#" class="isWarning forLocalBtn all_forLanguagePath">Setting Local Path</a></blockquote>
+    </div>
+  </div>
+  <div class="all_wrapFooter">It appears that your browser has JavaScript disabled. This block requires your browser to be JavaScript enable</div>
+</div>
+<div class="hide">
+  <div class="forJqueryHTML">&lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;</div>
+  <div class="forTempleteHTML">&lt;link href="http://wcc-demo.googlecode.com/files/css/aView.css?v=<em class="forVersionOutput">0</em>" rel="stylesheet"/&gt; </div>
+  <div class="forAWDGHTML">&lt;noscript&gt;&lt;style&gt; .noscript {display: none}&lt;/style&gt;&lt;/noscript&gt;</div>
+</div>
+<script src='http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js'></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/aView-0.2.js"></script>
+<script src="http://wcc-demo.googlecode.com/files/js/aView-0.2.js"></script>
+<script>
+<!--
+	//a View
+    $(document).ready(function () {
+        $('.aView').aView(); 
+    });
+    //-->
+</script>
+<script src="js/aCheckbox-0.2.js"></script>
+<script>
+<!--
+	//a Checkbox
+    $(document).ready(function () {
+        $(".forAWDGCheckbox").aCheckbox({inputTag:'.forAWDGHTML',outputTag:'.forStep2HTML'});
+		$(".forTempleteCheckbox").aCheckbox({inputTag:'.forTempleteHTML',outputTag:'.forStepHTML',copyTo:'before'});
+		$(".forJqueryCheckbox").aCheckbox({inputTag:'.forJqueryHTML',outputTag:'.forStepHTML',copyTo:'before'});
+    });
+    //-->
+</script>
+<script src="js/aReplace-0.2.js"></script>
+<script>
+<!--
+	//a Replace
+    $(document).ready(function () {
+        $(".forLocalBtn").aReplace({originalText:'http://wcc-demo.googlecode.com/files/',replaceText:''});
+		
+    });
+    //-->
+</script>
+<script src="js/aLanguage-0.2.js"></script>
+<script>
+<!--
+	//a Language
+    $(document).ready(function () {
+        $("#chinese").aLanguage({filename:'chinese.txt'});
+        $("#english").aLanguage({filename:'english.txt'});
+    });
+    //-->
+</script>
+<script src="js/aVersion-0.2.js"></script>
+<script>
+<!--
+	//a Version 
+    $(document).ready(function () {
+        $("body").aVersion();
+    });
+    //-->
+</script>
+<script src="js/ready.js"></script>
+</body>
+</html>
