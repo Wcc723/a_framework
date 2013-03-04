@@ -1,0 +1,115 @@
+@import setup.sass
+.showPhone
+	display: none !important
+.showTablet
+	display: none !important
+.showDesktop
+	display: inherit !important
+.hidePhone
+	display: inherit !important
+.hideTablet
+	display: inherit !important
+.hideDesktop
+	display: none !important
+@media print
+	.hidePrint
+		display: none !important
+	.showPrint
+		display: inherit !important
+	.smallPrint
+		font-size: 80% !important
+	.largePrint
+		font-size: 200% !important
+	.textRightPrint
+		text-align: right !important
+	.textLeftPrint
+		text-align: left !important
+	.textCenterPrint
+		text-align: center !important
+
+@media (min-width: $largeWrapWidth)
+	@include grid($largeWrapWidth,$largeWrapMargin)
+	div.narrow
+		@include grid($largeWrapWidth*2,$largeWrapMargin*2)
+	div.wide
+		@include grid($largeWrapWidth/2,$largeWrapMargin/2)
+	.smallDesktop
+		font-size: 80% !important
+	.largeDesktop
+		font-size: 200% !important
+@media (min-width: $tabletWrapWidth) and (max-width: $wrapWidth)
+	@include grid($tabletWrapWidth,$tabletWrapMargin)
+	div.narrow
+		@include grid($tabletWrapWidth*2,$tabletWrapMargin*2)
+	div.wide 
+		@include grid($tabletWrapWidth/2,$tabletWrapMargin/2)
+	.showPhone
+		display: none !important
+	.showTablet
+		display: inherit !important
+	.showDesktop
+		display: none !important
+	.hidePhone
+		display: inherit !important
+	.hideTablet
+		display: none !important
+	.hideDesktop
+		display: inherit !important
+	.smallTablet
+		font-size: 80% !important
+	.largeTablet
+		font-size: 200% !important
+	.textRightTablet
+		text-align: right !important
+	.textLeftTablet
+		text-align: left !important
+	.textCenterTablet
+		text-align: center !important	
+//@media (max-width: ($tabletWrapWidth) - 1)
+	//@include grid($phoneWrapWidth,$phoneWrapMargin)
+@media (max-width: ($tabletWrapWidth) - 1)
+	.container
+		max-width: $tabletWrapWidth - 1
+		*max-width: 100% //IE7
+		margin: 0 auto
+	div.row
+		display: block
+		margin-left: 0
+	@for $i from 1 through 12
+		.column#{$i}
+			width: 100%
+			max-width: none
+			float: none
+			height: auto
+			margin-left: 0
+		input.column#{$i}
+			float: none
+			max-width: 100%
+	img
+		height: auto
+		max-width: 100%
+		margin-left: 0	
+	.showPhone
+		display: inherit !important
+	.showTablet
+		display: none !important
+	.showDesktop
+		display: none !important
+	.hidePhone
+		display: none !important
+	.hideTablet
+		display: inherit !important
+	.hideDesktop
+		display: inherit !important
+	.smallPhone
+		font-size: 80% !important
+	.largePhone
+		font-size: 200% !important
+	.textRightPhone
+		text-align: right !important
+	.textLeftPhone
+		text-align: left !important
+	.textCenterPhone
+		text-align: center !important	
+	.blockPhone
+		display: block !important	

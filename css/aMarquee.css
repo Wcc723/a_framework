@@ -1,0 +1,48 @@
+.all_wrapMarquee {
+	overflow:hidden;
+	width:720px;
+}
+.all_wrapMarquee ul, .all_wrapMarquee li {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.all_wrapMarquee li {
+	padding-left:10px;
+	width:160px;
+	height:90px;
+}
+.all_wrapMarquee .arrows {
+	float:left;
+	width:32px;
+	height:100px;
+	padding:2px;
+	text-align:center;
+}
+.all_wrapMarquee .caption {
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.all_wrapMarquee .arrows a.prev {
+	width:32px;
+	height:32px;
+	margin-top:35px;
+	display:block;
+	background:url(../images/aImage_btn2_left.png) center 0px no-repeat;
+	text-indent:-9999px;
+}
+.all_wrapMarquee .arrows a.prev:hover {
+	background:url(../images/aImage_btn2_left.png) center -32px no-repeat;
+}
+.all_wrapMarquee .arrows a.next {
+	width:32px;
+	height:32px;
+	display:block;
+	margin-top:35px;
+	background:url(../images/aImage_btn2_right.png) center 0px no-repeat;
+	text-indent:-9999px;
+}
+.all_wrapMarquee .arrows a.next:hover {
+	background:url(../images/aImage_btn2_right.png) center -32px no-repeat;
+}

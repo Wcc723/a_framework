@@ -1,0 +1,32 @@
+@charset "utf-8";
+.all_forSmallBtn {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(../images/aImage_btn_small.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	text-indent: -9999px;
+}
+.all_forMiddleBtn {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(../images/aImage_btn_middle.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	text-indent: -9999px;
+}
+.all_forLargeBtn {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(../images/aImage_btn_large.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	text-indent: -9999px;
+}
+.aFontResize_button_small:hover, .aFontResize_button_middle:hover, .aFontResize_button_large:hover {
+	background-position: center -16px;
+}
+

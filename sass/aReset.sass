@@ -1,0 +1,22 @@
+@import compass/reset
+@import setup.sass
+body
+	b
+		font-weight: bold
+	legend
+		*margin-left: -7px //IE7
+	a
+		&:link
+			color: #0066cc
+		&:visited
+			color: #800080
+		&:hover
+		&:active
+			color: #ff0000
+	input, button
+		&[type="text"], &[type="password"]
+			background-color: #ffffff
+		&[type="radio"]
+			vertical-align: baseline
+		&[type="button"], &[type="submit"], &[type="reset"], &[type="file"]::-webkit-file-upload-button
+			*filter: chroma(color=#000000) //IE7

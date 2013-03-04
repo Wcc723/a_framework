@@ -1,0 +1,37 @@
+ul.header, ul.content {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	float: left;
+	width: 100%;
+}
+.header .select a {
+	text-decoration: none;
+	color: #fff !important
+}
+.header li {
+	float: left;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	list-style: none;
+	background: #eeeeee; /* Old browsers */
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.header .select {
+	background: #888888; /* Old browsers */
+}
+.content {
+	float: left;
+	width: 100%;
+	border: 1px #888888 solid;
+}
+.content li {
+	list-style: none;
+	padding: 10px;
+}
