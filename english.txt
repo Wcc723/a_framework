@@ -1,5 +1,0 @@
-﻿English
-a Style
-Technical Document
-Faster, intuitive, and powerful front-end framework for Asia web development.
-.textWord│Into the whole how all things blend
