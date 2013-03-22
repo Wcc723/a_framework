@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery套件 面板展開</title>
+<link href="../css/demo.css" rel="stylesheet" type="text/css" />
+<style>
+/* CSS Document */
+/*css reset 如果有reset過 可以將此段刪除*/
+
+
+body, html {
+}
+ul, li, a, img {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.togglePanel .article {
+	display:none;}
+.togglePanel .title {
+	cursor:pointer;}
+/*css reset 如果有reset過 可以將此段刪除*/
+</style>
+<link href='http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css' type='text/css' rel='stylesheet' />
+</head>
+<body onload='prettyPrint();'>
+<header>
+  <hgroup>
+    <h1></h1>
+  </hgroup>
+</header>
+<nav>
+  <menu class="main"></menu>
+</nav>
+<div class="content">
+  <article>
+    <header>
+      <time datetime="2012-11-23">2012-11-23</time>
+      <h1>jQuery套件 動畫輪播</h1>
+      <address>
+      by Wcc
+      </address>
+    </header>
+    <div class="entry-content">
+      <h2>範例1</h2>
+      <div class="docs_sample">
+        <div class="togglePanel">
+          <div class="panel">
+            <div class="title">
+              <h1 style="background:#000; color:#fff">中華打線放煙火 8:3逆轉荷蘭</h1>
+            </div>
+            <div class="article">經典賽（WBC）B組第一輪預賽，中華對荷蘭之戰，中華隊雖然先後落3分，但沒氣餒，把握得分機會逆轉戰局，6局下陽岱鋼轟出2分砲，以8比3擊敗荷蘭隊，戰績2連勝，由於荷蘭隊此戰失分太多，中華隊晉級八強機會濃厚。</div>
+          </div>
+          <div class="panel">
+            <div class="title">
+              <h1 style="background:#000; color:#fff">中華打線放煙火 10:0 大勝韓國</h1>
+            </div>
+            <div class="article">經典賽（WBC）B組第一輪預賽，中華對荷蘭之戰，中華隊雖然先後落3分，但沒氣餒，把握得分機會逆轉戰局，6局下陽岱鋼轟出2分砲，以8比3擊敗荷蘭隊，戰績2連勝，由於荷蘭隊此戰失分太多，中華隊晉級八強機會濃厚。</div>
+          </div>
+          <div class="panel">
+            <div class="title">
+              <h1 style="background:#000; color:#fff">中華打線放煙火 WBC 冠軍</h1>
+            </div>
+            <div class="article">經典賽（WBC）B組第一輪預賽，中華對荷蘭之戰，中華隊雖然先後落3分，但沒氣餒，把握得分機會逆轉戰局，6局下陽岱鋼轟出2分砲，以8比3擊敗荷蘭隊，戰績2連勝，由於荷蘭隊此戰失分太多，中華隊晉級八強機會濃厚。</div>
+          </div>
+        </div>
+        <!--套件結束-->
+      </div>
+      <!--<h2>範例2</h2>
+      <div class="docs_sample">
+        <div class="pg_banner size2 power2"> <a href="#" class="next">next</a> <a href="#" class="pre">pre</a>
+          <div class="wrap">
+            <ul>
+              <li><a href="#" ><img src="../images/sampleImages/photo_01.jpg"  alt="" /></a>
+                <div style=" position:absolute; top:150px; left:40px; color:#fff; background-color:#666;">
+                  <h1>Hello world!</h1>
+                  <p>You are so beautiful.</p>
+                </div>
+              </li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_02.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_03.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_04.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_05.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_06.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_07.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_08.jpg"  alt="" /></a></li>
+            </ul>
+          </div>
+          <div class="control"><a href="#">1</a></div>
+        </div>
+      </div>-->
+      <h3>如何使用</h3>
+      <figure class="code"> <cite>1.請將以下原始碼加在 &lt;head&gt;&lt;/head&gt;之間</cite>
+        <pre class="prettyprint">
+        </pre>
+        <cite>2.請將以下原始碼加在&lt;body&gt;&lt;/body&gt;之間</cite>
+        <pre class="prettyprint">
+        </pre>
+        <cite>3.請將以下原始碼加在CSS</cite>
+        <pre class="prettyprint">
+  	</pre>
+      </figure>
+      <footer></footer>
+    </div>
+  </article>
+</div>
+<aside>
+  <menu class="classify"></menu>
+</aside>
+<footer></footer>
+<script type='text/javascript' src='http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js'></script> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+<script type="text/javascript" src="js/atogglePanel.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() {	
+	 <!-- power by pg_banner.js
+	$('.togglePanel').a_togglePanel({
+	});
+	//-->
+});
+</script>
+</body>
+</html>
